@@ -12,7 +12,7 @@
   },
   "functions": [],
   "variables": {
-    "storageAccountName": "sqlicmstorage",
+    "storageAccountName": "sqlicmstorageprod01",
     "hostingPlanName": "[format('{0}{1}', parameters('appName'), uniqueString(resourceGroup().id))]",
     "appInsightsName": "[format('{0}{1}', parameters('appName'), uniqueString(resourceGroup().id))]",
     "functionAppName": "[parameters('appName')]"
